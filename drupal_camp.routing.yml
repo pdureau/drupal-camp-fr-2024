@@ -1,0 +1,15 @@
+drupal_camp.original:
+  path: "/drupal-camp/original"
+  defaults:
+    _title: "Front page (original)"
+    _controller: '\Drupal\drupal_camp\Controller\DrupalCampController::original'
+  requirements:
+    _access: 'TRUE'
+
+drupal_camp.revised:
+  path: "/drupal-camp/revised"
+  defaults:
+    _title: "Front page (revised)"
+    _controller: '\Drupal\drupal_camp\Controller\DrupalCampController::revised'
+  requirements:
+    _access: 'TRUE'
