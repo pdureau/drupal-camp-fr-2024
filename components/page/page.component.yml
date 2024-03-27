@@ -1,0 +1,29 @@
+name: Page
+slots:
+  hero:
+    title: Hero
+  highlighted:
+    title: Highlighted
+  breadcrumb:
+    title: Breadcrumb
+  sidebar:
+    title: Sidebar
+  content_above:
+    title: Content above
+  content:
+    title: Content
+  content_below:
+    title: Content below
+  social:
+    title: Social
+  footer_top:
+    title: Footer top
+  footer_bottom:
+    title: Footer bottom
+props:
+  type: object
+  properties: {}
+libraryOverrides:
+  dependencies:
+    - system/base
+    - olivero/global-styling

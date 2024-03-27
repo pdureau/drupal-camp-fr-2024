@@ -1,0 +1,9 @@
+name: Site branding
+slots:
+  site_name:
+    title: Site name
+  site_logo:
+    title: Site logo
+props:
+  type: object
+  properties: {}

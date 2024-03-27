@@ -1,0 +1,11 @@
+name: Site header
+slots:
+  content:
+    title: Content
+  primary_menu:
+    title: Primary menu
+  secondary_menu:
+    title: Secondary menu
+props:
+  type: object
+  properties: {}

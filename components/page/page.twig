@@ -1,0 +1,61 @@
+<div id="page-wrapper" class="page-wrapper">
+  <div id="page">
+    {{ header }}
+    <div id="main-wrapper" class="layout-main-wrapper layout-container">
+      <div id="main" class="layout-main">
+        <div class="main-content">
+          <a id="main-content" tabindex="-1"></a>
+          {{ hero }}
+          <div class="main-content__container container">
+            {{ highlighted }}
+            {{ breadcrumb }}
+
+            {% if sidebar %}
+              <div class="sidebar-grid grid-full">
+                <main role="main" class="site-main">
+                  {% if content_above %}
+                  <div class="region region--content-above grid-full layout--pass--content-medium">
+                  {{ content_above }}
+                  </div>
+                  {% endif %}
+                  {% if content %}  
+                  <div class="region region--content grid-full layout--pass--content-medium" id="content">
+                  {{ content }}
+                  </div>
+                  {% endif %}
+                </main>
+
+                {{ sidebar }}
+              </div>
+            {% else %}
+              <main role="main">
+                {% if content_above %}
+                <div class="region region--content-above grid-full layout--pass--content-medium">
+                {{ content_above }}
+                </div>
+                {% endif %}
+                {% if content %}  
+                <div class="region region--content grid-full layout--pass--content-medium" id="content">
+                {{ content }}
+                </div>
+                {% endif %}
+              </main>
+            {% endif %}
+            {{ content_below }}
+          </div>
+        </div>
+        {{ social }}
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        {{ footer_top }}
+        {{ footer_bottom }}
+      </div>
+    </footer>
+
+    <div class="overlay" data-drupal-selector="overlay"></div>
+
+  </div>
+</div>

@@ -1,0 +1,5 @@
+name: Social Bar
+slots: {}
+props:
+  type: object
+  properties: {}

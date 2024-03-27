@@ -1,0 +1,11 @@
+name: Feed icon
+slots:
+  title:
+    title: Title
+props:
+  type: object
+  properties:
+    url:
+      title: Url
+      type: string
+      format: iri-reference

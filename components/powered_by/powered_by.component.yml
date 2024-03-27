@@ -1,0 +1,7 @@
+name: Powered by
+slots:
+  content:
+    title: Content
+props:
+  type: object
+  properties: {}

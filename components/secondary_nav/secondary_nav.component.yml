@@ -1,0 +1,8 @@
+name: Secondary nav
+slots: {}
+props:
+  type: object
+  properties:
+    items:
+      title: Menu items
+      type: array

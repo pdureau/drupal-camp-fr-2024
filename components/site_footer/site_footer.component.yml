@@ -1,0 +1,7 @@
+name: Site footer
+slots:
+  content:
+    title: Content
+props:
+  type: object
+  properties: {}

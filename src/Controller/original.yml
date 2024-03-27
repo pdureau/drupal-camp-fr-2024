@@ -1,19 +1,6 @@
 "#type": page
 "#title":
   "#markup": Welcome!
-  "#allowed_tags":
-    - a
-    - em
-    - strong
-    - cite
-    - blockquote
-    - code
-    - ul
-    - ol
-    - li
-    - dl
-    - dt
-    - dd
 header:
   elements:
     "#theme_wrappers": ["region"]
@@ -30,7 +17,6 @@ primary_menu:
   elements:
     "#theme_wrappers": ["region"]
     "#region": "primary_menu"
-    olivero_search_form_narrow: {}
     olivero_main_menu:
       "#theme": "block"
       "#plugin_id": "system_menu_block:main"
@@ -47,7 +33,6 @@ secondary_menu:
   elements:
     "#theme_wrappers": ["region"]
     "#region": "secondary_menu"
-    olivero_search_form_wide: {}
     olivero_account_menu:
       "#theme": "block"
       "#plugin_id": "system_menu_block:account"
@@ -74,7 +59,7 @@ social:
       "#theme": "block"
       content:
         "#theme": feed_icon
-        "#url": {}
+        "#url": ""
         "#title": RSS feed
 content_above:
   elements:
@@ -89,19 +74,6 @@ content_above:
         "#type": page_title
         "#title":
           "#markup": Welcome!
-          "#allowed_tags":
-            - a
-            - em
-            - strong
-            - cite
-            - blockquote
-            - code
-            - ul
-            - ol
-            - li
-            - dl
-            - dt
-            - dd
 content:
   elements:
     "#theme_wrappers": ["region"]
